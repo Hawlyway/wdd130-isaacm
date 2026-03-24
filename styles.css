@@ -36,7 +36,7 @@ nav a:hover {
     color: var(--accent-color);
 }
 body {
-    font-family: "Orbitron", sans-serif; 
+    font-family: "Roboto", sans-serif; 
     font-optical-sizing: auto;
     margin: 0%;
     background-color: var(--primary-color);
@@ -45,15 +45,16 @@ body {
 }
 .herotxt {
     color: var(--accent-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 2.5em;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
     margin-top: 20px;
     text-align: center;
 }
 .heroimg{
-    position: relative;
+    position: center;
     overflow: hidden;
     height: 350px;
+    padding-top: 100px;
 }
 .heroimg::before {
     content: "";
@@ -72,10 +73,14 @@ footer {
     padding: 16px;
 }
 .featured {
-    
-    padding: 20px;
+    border-style: dashed;
+    padding: 10px 200px;
     background-color: var(--accent-color2);
     color: var(--secondary-color);
     text-align: center;
 
+}
+.mission {
+    padding: 20px;
+    border-top: dashed;
 }
